@@ -112,6 +112,7 @@ a {
 
 .page-nav .link {
     position: relative;
+    color: #404bbf;
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
@@ -379,7 +380,7 @@ ul {
 }
 
 .icon-link:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
 .icon-edit {
@@ -515,4 +516,12 @@ ul {
 
 .sector-contacts-company .icon-link:hover {
     background-color: #31D0AA;
+}
+
+.sector-contacts-company .icon-link:focus {
+    background-color: #31D0AA;
+}
+
+.sector-contacts-company .list-icon {
+    gap: 16px;
 }
