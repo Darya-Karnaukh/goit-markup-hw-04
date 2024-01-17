@@ -43,12 +43,10 @@ a {
 
 .link {
     padding: 24px 0;
-}
-.link-studio {
     position: relative;
     color: #404bbf;
-    
 }
+
 .menu-page {
     background: #FFF;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -64,7 +62,7 @@ a {
     padding: 24px 0;
 }
 
-.link-studio::after {
+.link:hover:after {
     content: "";
     position: absolute;
     left: 0;
